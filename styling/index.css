@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color:  #181719;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    height: 220px;
+}
+
+.main-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    padding: 25px 0;
+    margin-bottom: 59px;
+}
+
+.search-area {
+    display: flex;
+}
+
+.search-box {
+    width: 460px;
+    height: 40px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+}
+
+.search-box button {
+    border: none;
+}
+
+.search-box .fa  {
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.se-arch {
+    width: 100%;
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 22px;
+}
+
+#div {
+    width: 282px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #595959;
+    margin-bottom: 28px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 19px;
+}
+
+.DIV {
+    width: 342px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 22px;
+    border-radius: 16px;
+    background-color: #595959;
+}
+
+.DIV button {
+    position: absolute;
+    left: 2%;
+    width: 120px;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    background-color: #595959;
+}
+
+.DIV a {
+    color: #181719;
+    text-decoration: none;
+}
+
+.DIV a:hover {
+    transition: 0.3s;
+    font-weight: bold;
+}
